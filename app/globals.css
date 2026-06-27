@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+
+  /* Ipon brand — ube violet + coin amber on warm cream */
+  --color-cream: #faf6ef;
+  --color-cream-deep: #f3ecdf;
+  --color-ink: #241b2e;
+  --color-ink-soft: #5b5167;
+  --color-brand: #6d28d9;
+  --color-brand-600: #6d28d9;
+  --color-brand-700: #5b21b6;
+  --color-brand-50: #f3ecfc;
+  --color-brand-100: #e7d8fa;
+  --color-coin: #f59e0b;
+  --color-coin-50: #fdf3e2;
+  --color-line: #e9dff0;
+  --color-mist: #f4eefa;
+  --color-positive: #15803d;
+
+  --radius: 1rem;
+}
+
+:root {
+  color-scheme: light;
+}
+
+@layer base {
+  html {
+    background: var(--color-cream);
+  }
+  body {
+    background:
+      radial-gradient(1100px 600px at 50% -180px, #efe2fb 0%, rgba(239, 226, 251, 0) 60%),
+      var(--color-cream);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--color-brand-100);
+    color: var(--color-brand-700);
+  }
+  .tnum {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" on, "lnum" on;
+  }
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .card {
+    background: #ffffff;
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius);
+    box-shadow: 0 1px 2px rgba(36, 27, 46, 0.04), 0 12px 30px -22px rgba(109, 40, 217, 0.35);
+  }
+  .btn-primary {
+    background: var(--color-brand);
+    color: #fff;
+    transition: transform 0.12s ease, background 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 10px 24px -10px rgba(109, 40, 217, 0.6);
+  }
+  .btn-primary:hover {
+    background: var(--color-brand-700);
+  }
+  .btn-primary:active {
+    transform: translateY(1px);
+  }
+  .btn-primary:disabled {
+    opacity: 0.55;
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+}
