@@ -10,7 +10,7 @@ Soroban smart contract**, watch the ring fill — then withdraw on-chain wheneve
 **Live app → https://ipon-dun.vercel.app**
 **Live stats → https://ipon-dun.vercel.app/stats**
 
-![Landing](../screen-shot/01-landing.jpg)
+![Landing](screen-shot/01-landing.jpg)
 
 ---
 
@@ -39,12 +39,12 @@ The progress ring moves because the ledger moved.
 | **Deposit** | The server builds a Soroban `deposit(saver, goal_id, token, target, amount)` invoke, you sign it in Freighter, and the server submits it over the Soroban RPC. The contract pulls your funds into custody; the app credits the goal from the contract's **authoritative on-chain balance**. |
 | **Withdraw** | The server builds a `withdraw(saver, goal_id)` invoke, you sign it, and the contract pays your full balance back to your wallet. The goal closes with the payout tx recorded. |
 
-![Connect Freighter](../screen-shot/02-connect-popup.jpg)
-![Sign the SEP-10 challenge](../screen-shot/03-sign-challenge-popup.jpg)
-![Connected dashboard](../screen-shot/04-connected-dashboard.jpg)
-![Create a goal](../screen-shot/05-create-goal.jpg)
-![Sign the deposit in Freighter](../screen-shot/06-deposit-sign-popup.jpg)
-![Deposit locked in the contract](../screen-shot/07-deposit-success.jpg)
+![Connect Freighter](screen-shot/02-connect-popup.jpg)
+![Sign the SEP-10 challenge](screen-shot/03-sign-challenge-popup.jpg)
+![Connected dashboard](screen-shot/04-connected-dashboard.jpg)
+![Create a goal](screen-shot/05-create-goal.jpg)
+![Sign the deposit in Freighter](screen-shot/06-deposit-sign-popup.jpg)
+![Deposit locked in the contract](screen-shot/07-deposit-success.jpg)
 
 ## The contract
 
@@ -73,7 +73,11 @@ make optimize   # release wasm + stellar contract optimize
 `/stats` (and `GET /api/stats`) report real interaction counts straight from Postgres —
 unique wallets and SEP-10 sign-ins from the `sessions` table, plus goals and on-chain deposits.
 
-![Stats](../screen-shot/08-stats.jpg)
+![Stats](screen-shot/stats.jpg)
+
+| Wallets | Logins | Goals | Active | Completed | Deposits |
+|---:|---:|---:|---:|---:|---:|
+| 104 | 114 | 10 | 2 | 4 | 10 |
 
 ## Tech stack
 
@@ -140,8 +144,8 @@ The e2e suite (`tests/e2e/prod-real.spec.ts`) runs against the **live** deployme
 Freighter extension** loaded into a headed Chromium (no `postMessage` stub, no Node signer). It
 drives the actual wallet popup: the SEP-10 connect grant + challenge are signed with a real Approve
 click, then a real on-chain deposit **through the Soroban contract** is signed in the popup, and the
-screenshots in `screen-shot/` are captured from that real run. The shared extension fixture lives in
-`shared/freighter/freighter-fixture.ts`. Extensions only load headed, so run it under `xvfb`:
+screenshots in `screen-shot/` are captured from that real run. Extensions only load headed, so run
+the spec under `xvfb`:
 
 ```bash
 PLAYWRIGHT_BASE_URL=https://ipon-dun.vercel.app xvfb-run -a npx playwright test tests/e2e/prod-real.spec.ts
@@ -152,7 +156,7 @@ address with [Friendbot](https://friendbot.stellar.org).
 
 ## Mobile
 
-![Mobile](../screen-shot/09-mobile.jpg)
+![Mobile](screen-shot/09-mobile.jpg)
 
 ---
 
