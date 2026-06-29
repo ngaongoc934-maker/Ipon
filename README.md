@@ -46,6 +46,13 @@ The progress ring moves because the ledger moved.
 ![Sign the deposit in Freighter](screen-shot/06-deposit-sign-popup.jpg)
 ![Deposit locked in the contract](screen-shot/07-deposit-success.jpg)
 
+---
+## Demo & Pitch Deck
+
+- **Demo Video:** [Watch Demo](https://drive.google.com/file/d/1dP9nBnDKa4gr647XnxtlhD6pgBCP1Dgs/view?usp=drive_link)
+- **Pitch Deck:** [View Pitch Deck](https://drive.google.com/file/d/1myeNSHsStJt1UfDKLDtbySbNXijRbRYO/view?usp=drive_link)
+---
+
 ## The contract
 
 The on-chain core is a Soroban contract (`contracts/goal-vault`, soroban-sdk 22) that custodies
