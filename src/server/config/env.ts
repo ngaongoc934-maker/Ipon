@@ -8,11 +8,11 @@ const envSchema = z.object({
 
   DRIZZLE_DATABASE_URL: z.string().url(),
 
-  STELLAR_NETWORK: z.enum(['testnet', 'public', 'futurenet']).default('testnet'),
-  NEXT_PUBLIC_STELLAR_NETWORK: z.enum(['testnet', 'public', 'futurenet']).default('testnet'),
-  STELLAR_HORIZON_URL: z.string().url().default('https://horizon-testnet.stellar.org'),
+  STELLAR_NETWORK: z.enum(['testnet', 'public', 'futurenet']).default('public'),
+  NEXT_PUBLIC_STELLAR_NETWORK: z.enum(['testnet', 'public', 'futurenet']).default('public'),
+  STELLAR_HORIZON_URL: z.string().url().default('https://horizon.stellar.org'),
   STELLAR_NETWORK_PASSPHRASE: z.string().default('Test SDF Network ; September 2015'),
-  SOROBAN_RPC_URL: z.string().url().default('https://soroban-testnet.stellar.org'),
+  SOROBAN_RPC_URL: z.string().url().default('https://soroban-rpc.creit.tech'),
 
   USDC_ASSET_CODE: z.string().default('USDC'),
   USDC_ASSET_ISSUER_TESTNET: z

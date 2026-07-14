@@ -2,7 +2,7 @@ import { Horizon, Networks } from '@stellar/stellar-sdk';
 import { env } from './env';
 
 const networkMap = {
-  testnet: { passphrase: Networks.TESTNET, horizonUrl: 'https://horizon-testnet.stellar.org' },
+  testnet: { passphrase: Networks.TESTNET, horizonUrl: 'https://horizon.stellar.org' },
   public: { passphrase: Networks.PUBLIC, horizonUrl: 'https://horizon.stellar.org' },
   futurenet: { passphrase: Networks.FUTURENET, horizonUrl: 'https://horizon-futurenet.stellar.org' },
 } as const;

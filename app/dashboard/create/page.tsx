@@ -142,7 +142,7 @@ export default function CreateGoalPage() {
               </div>
               {asset === 'XLM' && (
                 <p className="mt-2 text-xs text-ink-soft">
-                  XLM works for any funded testnet wallet out of the box.
+                  XLM works for any funded mainnet wallet out of the box.
                 </p>
               )}
             </div>

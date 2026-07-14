@@ -3,7 +3,7 @@
  * Mirror of the NEXT_PUBLIC_* vars. Never import @/server/config/env in the browser.
  */
 
-const NETWORK = (process.env.NEXT_PUBLIC_STELLAR_NETWORK ?? 'testnet') as
+const NETWORK = (process.env.NEXT_PUBLIC_STELLAR_NETWORK ?? 'public') as
   | 'testnet'
   | 'public'
   | 'futurenet';
@@ -15,7 +15,7 @@ const PASSPHRASE_BY_NETWORK: Record<string, string> = {
 };
 
 const HORIZON_BY_NETWORK: Record<string, string> = {
-  testnet: 'https://horizon-testnet.stellar.org',
+  testnet: 'https://horizon.stellar.org',
   public: 'https://horizon.stellar.org',
   futurenet: 'https://horizon-futurenet.stellar.org',
 };

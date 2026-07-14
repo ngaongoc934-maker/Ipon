@@ -1,5 +1,13 @@
 # Ipon 🪙
 
+## 🌐 Mainnet (LIVE)
+
+- **Live app:** https://ipon-stellar.vercel.app
+- **Network:** Stellar public (mainnet)
+- **Soroban contract:** `CDACSIOTAVYJ523ZGZLG52IE73Y2IRI2SVWNNLWPGFU2TPMYQLOYUH3D`
+- **Explorer:** https://stellar.expert/explorer/public/contract/CDACSIOTAVYJ523ZGZLG52IE73Y2IRI2SVWNNLWPGFU2TPMYQLOYUH3D
+
+
 **Saving you can actually keep.** Ipon is a goal-based savings app where every bit of
 progress is a real Stellar transaction. Name a goal, deposit XLM (or USDC) into the **GoalVault
 Soroban smart contract**, watch the ring fill — then withdraw on-chain whenever you like.
@@ -45,13 +53,6 @@ The progress ring moves because the ledger moved.
 ![Create a goal](screen-shot/05-create-goal.jpg)
 ![Sign the deposit in Freighter](screen-shot/06-deposit-sign-popup.jpg)
 ![Deposit locked in the contract](screen-shot/07-deposit-success.jpg)
-
----
-## Demo & Pitch Deck
-
-- **Demo Video:** [Watch Demo](https://drive.google.com/file/d/1dP9nBnDKa4gr647XnxtlhD6pgBCP1Dgs/view?usp=drive_link)
-- **Pitch Deck:** [View Pitch Deck](https://drive.google.com/file/d/1myeNSHsStJt1UfDKLDtbySbNXijRbRYO/view?usp=drive_link)
----
 
 ## The contract
 

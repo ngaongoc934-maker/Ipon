@@ -44,7 +44,7 @@ export default async function StatsPage() {
           <h1 className="mt-4 font-display text-4xl font-semibold text-ink">Ipon in numbers</h1>
           <p className="mt-2 text-ink-soft">
             Every figure below is pulled straight from the database — real SEP-10 sign-ins, real
-            goals, and deposits verified on Stellar testnet. Infrastructure keys are excluded.
+            goals, and deposits verified on Stellar mainnet. Infrastructure keys are excluded.
           </p>
         </div>
 

@@ -76,7 +76,7 @@ export function Footer() {
   return (
     <footer className="mt-20 border-t border-line/70">
       <div className="mx-auto flex max-w-5xl flex-col items-center justify-between gap-2 px-5 py-7 text-sm text-ink-soft sm:flex-row">
-        <p>Ipon · on-chain savings goals on Stellar testnet</p>
+        <p>Ipon · on-chain savings goals on Stellar mainnet</p>
         <div className="flex items-center gap-4">
           <Link href="/stats" className="hover:text-ink">
             Live stats

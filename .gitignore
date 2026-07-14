@@ -9,3 +9,17 @@ playwright-report/
 *.tsbuildinfo
 .vercel
 .env*
+
+.env
+.env.local
+.env.prod
+.env.*.local
+*.bak
+*.testnet.bak
+contracts/target/
+node_modules/
+.next/
+.vercel/
+
+.vercel
+.env*

@@ -89,7 +89,7 @@ export default function DashboardPage() {
                 </h2>
                 <p className="mt-2 max-w-sm text-ink-soft">
                   Your goals are tied to your Stellar wallet. Connect with Freighter to create one
-                  and start saving on testnet.
+                  and start saving on mainnet.
                 </p>
                 <button
                   type="button"
@@ -144,7 +144,7 @@ export default function DashboardPage() {
                 </h2>
                 <p className="mt-2 max-w-sm text-ink-soft">
                   Create your first goal — a trip, an emergency fund, a new laptop — and fund it with
-                  real testnet XLM.
+                  real mainnet XLM.
                 </p>
                 <Link
                   href="/dashboard/create"

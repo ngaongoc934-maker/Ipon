@@ -24,7 +24,7 @@ export const savingsGoals = pgTable(
     currentAmount: text('current_amount').notNull().default('0'),
     status: goalStatusEnum('status').notNull().default('active'),
     withdrawalTxHash: text('withdrawal_tx_hash'),
-    network: text('network').notNull().default('testnet'),
+    network: text('network').notNull().default('public'),
     createdAt: timestamp('created_at', { withTimezone: true }).defaultNow().notNull(),
     updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
   },

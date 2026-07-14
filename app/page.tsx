@@ -143,7 +143,7 @@ export default async function LandingPage() {
           </div>
           <div className="mt-6 flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-3 text-sm text-ink-soft">
             <ShieldCheck className="h-4 w-4 text-positive" />
-            Testnet only. Connect with Freighter — signing is pinned to Stellar testnet, even if your
+            Mainnet only. Connect with Freighter — signing is pinned to Stellar mainnet, even if your
             wallet is set to mainnet.
           </div>
         </section>
