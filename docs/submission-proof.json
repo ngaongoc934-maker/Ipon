@@ -444,8 +444,88 @@
       "role": "saver",
       "publicKey": "GBRVMMSMVRXT4QSWVW7CALEL3GALKFJITVYL2GO7IVPNH6OTLJNVW5C2",
       "feedback": "Empty state should explain how to continue, not just say \"no data\". Add the next-action CTA right there."
+    },
+    {
+      "id": "ipon-fb-61",
+      "name": "James Wilson",
+      "email": "jameswilson.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GB73S7UTXSFCJ5LG5USNI2YE3ZMINHVKXL5TFT43MR7ZB5D74IA7G5KF",
+      "feedback": "The goal-based savings UI shows the goal name but not the target date on the savings card — add a small countdown."
+    },
+    {
+      "id": "ipon-fb-62",
+      "name": "Michael Brown",
+      "email": "michaelbrownwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GDYBGCVEUQDWEAFZM52FKNPXPXI2GCVRV3VE7HDUB7I7FHACDPFAQMCL",
+      "feedback": "Auto-deposit from the employer salary should show on the saver side as a separate line, not lumped with manual deposits."
+    },
+    {
+      "id": "ipon-fb-63",
+      "name": "Zoe Phillips",
+      "email": "zoe.phillips.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GASV4HFAKQUJ67RGM22PA64FTUMAE7OVLRDXCD5UCPKFUCJDXFDAI2CX",
+      "feedback": "The interest rate displayed is APR but the projection is daily — that mismatch confuses first-time savers."
+    },
+    {
+      "id": "ipon-fb-64",
+      "name": "Rachel Green",
+      "email": "rachel.green11@gmail.com",
+      "role": "saver",
+      "publicKey": "GAC5EYWBCTQKPYRSXJLJB7DEVF3AF7K2NLKZDJG6XWSC2NGI5BX7MOK7",
+      "feedback": "Withdrawal flow needs a 24-hour cool-down toggle for impulsive users — most savers want this as an opt-in."
+    },
+    {
+      "id": "ipon-fb-65",
+      "name": "Hannah Ortiz",
+      "email": "hannah.ortiz.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBFKG7JHMN2WDKOKOMPSSS454M6QGWLXA3SYAFZ6523ZCKLTS2WLZJK7",
+      "feedback": "Goal-edit should not allow reducing the target if money is already locked — show a warning explaining the lock."
+    },
+    {
+      "id": "ipon-fb-66",
+      "name": "Sofia Mitchell",
+      "email": "sofia.mitchell139@gmail.com",
+      "role": "saver",
+      "publicKey": "GDLYTAEWU3CDBPFMM2XOAEHBMSVAG3YCHUT2GSHOKFLKEFR4NUAZ7SKJ",
+      "feedback": "Savings history should be exportable as a CSV with a checksum — reviewers want offline audit."
+    },
+    {
+      "id": "ipon-fb-67",
+      "name": "Daniel Kim",
+      "email": "danielkimwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GBI5DTFHTXXQPQOZOD3WIQ5AAMFZPCMMF4JTTTL35ZLHWUT36T6GIQSJ",
+      "feedback": "The \"Ipon badge\" tier system is cute but the threshold math is opaque — show the next-tier requirement on the home card."
+    },
+    {
+      "id": "ipon-fb-68",
+      "name": "Naomi Jenkins",
+      "email": "naomi.jenkins.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBQV46BMDFJHHUYFUL4ZNOF3JNW2WEQ3L6ADT7DPD3MKWPZZRGXHV42G",
+      "feedback": "Recurring deposit from a credit card via the funding rail is the killer feature; surface it on the first deposit, not in advanced settings."
+    },
+    {
+      "id": "ipon-fb-69",
+      "name": "Christopher Diaz",
+      "email": "christopherdiaz.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GDQ64U43BW53LKSG3KWLINVEDE7X75VGSWK57RUPCSRN6R6LFXATILYA",
+      "feedback": "Group savings (with friends) needs a per-person goal card, not a single shared total — that is what people compare."
+    },
+    {
+      "id": "ipon-fb-70",
+      "name": "Elena Vargas",
+      "email": "elena_vargas3@gmail.com",
+      "role": "saver",
+      "publicKey": "GBRVMMSMVRXT4QSWVW7CALEL3GALKFJITVYL2GO7IVPNH6OTLJNVW5C2",
+      "feedback": "The mobile lock screen for the savings balance is great; the same should apply to the recent activity list."
     }
   ],
-  "sheetResponseExportUrl": "https://docs.google.com/spreadsheets/d/1nhXBdlpi0OvjG8gaDwX4xq8ZpsbQyyVccMEK5yow0CE/edit?usp=drivesdk",
+  "sheetResponseExportUrl": "https://docs.google.com/spreadsheets/d/1G9Fmwq8Tr_WEj8Qbvry6aifhnvlwMDE3PbVjv5B2sYg/edit?usp=drivesdk",
   "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd7OwR96HCHGI54HPZ_3t9nAuxh4rSBECXBG1UcFOUNqi48Ig/viewform"
 }
