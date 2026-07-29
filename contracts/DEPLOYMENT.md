@@ -33,6 +33,20 @@ make optimize      # build + stellar contract optimize
 ./scripts/deploy.sh
 ```
 
+## Mainnet (live)
+
+| Field | Value |
+|-------|-------|
+| **Network** | Stellar Public (Mainnet) |
+| **Contract ID** | `CDACSIOTAVYJ523ZGZLG52IE73Y2IRI2SVWNNLWPGFU2TPMYQLOYUH3D` |
+| **Network passphrase** | `Public Global Stellar Network ; September 2015` |
+
+Explorer: https://stellar.expert/explorer/public/contract/CDACSIOTAVYJ523ZGZLG52IE73Y2IRI2SVWNNLWPGFU2TPMYQLOYUH3D
+
+Confirmed live via the stellar.expert API (contract exists on the public network, created
+2026-07-12 UTC). The full deploy-tx history — init tx hash, wasm hash, admin/deployer key,
+toolchain — wasn't recorded at deploy time and isn't reconstructed here.
+
 ## Mainnet switch
 
 Set `NETWORK=mainnet`, an `XLM_SAC` for mainnet, fund the deployer, then re-run `./scripts/deploy.sh`.

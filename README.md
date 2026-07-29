@@ -7,8 +7,8 @@
 - [x] **Public GitHub repository** — link to the public repo
 - [x] **Minimum 20+ meaningful commits** — see commit history on `main`
 - [x] **Live deployed application** — https://ipon-dun.vercel.app
-- [x] **PPT/Pitch deck link** — [View Pitch Deck](https://drive.google.com/file/d/17qf44UnXSlH3l_SwYjo0Ej_3VjYa9vUf/view?usp=drive_link)
-- [x] **Demo video link** — [Watch Demo](https://drive.google.com/file/d/1l8sVQfae0O-KUqcAaRtCHXwL3pnZzoTk/view?usp=drive_link)
+- [x] **PPT/Pitch deck link** — [View Pitch Deck](https://docs.google.com/presentation/d/11LgqNgOdu7HEfODyrOo2nxpL4bpGVsWC/edit?usp=sharing)
+- [x] **Demo video link** — [Watch Demo](https://drive.google.com/file/d/1EUkrVDxYxGRr2gZpVivFOvof_IH9GePr/view?usp=sharing)
 
 ### Proof
 
@@ -239,7 +239,7 @@ https://docs.google.com/spreadsheets/d/1G9Fmwq8Tr_WEj8Qbvry6aifhnvlwMDE3PbVjv5B2
 
 ---
 
-Built for the Stellar APAC hackathon. Testnet only.
+Built for the Stellar APAC hackathon. Live on Stellar mainnet.
 
 
 ## User feedback
