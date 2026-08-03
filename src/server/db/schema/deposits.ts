@@ -6,7 +6,7 @@ import { goalAssetEnum, savingsGoals } from './savingsGoals';
  * `amount` is a decimal whole-asset string. `txHash` is the real Horizon tx hash.
  */
 export const deposits = pgTable(
-  'deposits',
+  'ipon_deposits',
   {
     id: uuid('id').defaultRandom().primaryKey(),
     goalId: uuid('goal_id')

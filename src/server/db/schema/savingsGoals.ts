@@ -13,7 +13,7 @@ export const goalAssetEnum = pgEnum('goal_asset', GOAL_ASSETS);
  * (e.g. "100.0000000"), matching on-chain Stellar amounts (7 dp).
  */
 export const savingsGoals = pgTable(
-  'savings_goals',
+  'ipon_savings_goals',
   {
     id: uuid('id').defaultRandom().primaryKey(),
     publicKey: text('public_key').notNull(),
