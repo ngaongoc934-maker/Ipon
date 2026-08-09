@@ -22,7 +22,7 @@
 
 Submit your GitHub repository link below before the monthly deadline:
 
-**https://github.com/your-org/Ipon**
+**https://github.com/ngaongoc934-maker/Ipon**
 
 <details>
 <summary>Current evidence totals</summary>
@@ -98,7 +98,7 @@ accumulation, target-reached state, self-custody withdrawal, per-saver isolation
 |---|---|
 | **Contract ID** | `CBB735AEGKSN7TLZEUBHD7SDQUHWGCJ5DFK2K2TUKK7MMMHJCHW4KBR6` |
 | **Default token (XLM SAC)** | `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC` |
-| **Network / RPC** | Testnet / `https://soroban-testnet.stellar.org` |
+| **Network / RPC** | Testnet / ` |
 
 Explorer: https://stellar.expert/explorer/testnet/contract/CBB735AEGKSN7TLZEUBHD7SDQUHWGCJ5DFK2K2TUKK7MMMHJCHW4KBR6 —
 build & deploy notes in [`contracts/DEPLOYMENT.md`](contracts/DEPLOYMENT.md).
