@@ -98,7 +98,7 @@ accumulation, target-reached state, self-custody withdrawal, per-saver isolation
 |---|---|
 | **Contract ID** | `CBB735AEGKSN7TLZEUBHD7SDQUHWGCJ5DFK2K2TUKK7MMMHJCHW4KBR6` |
 | **Default token (XLM SAC)** | `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC` |
-| **Network / RPC** | Testnet / ` |
+| **Network / RPC** | Testnet / `https://soroban-testnet.stellar.org` |
 
 Explorer: https://stellar.expert/explorer/testnet/contract/CBB735AEGKSN7TLZEUBHD7SDQUHWGCJ5DFK2K2TUKK7MMMHJCHW4KBR6 —
 build & deploy notes in [`contracts/DEPLOYMENT.md`](contracts/DEPLOYMENT.md).
