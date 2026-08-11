@@ -1,0 +1,531 @@
+{
+  "note": "Level 5 user wallet list for reviewer validation. Ipon goal-based savings vault cohort.",
+  "participantCount": 60,
+  "uniqueWalletAddresses": 60,
+  "feedbackResponses": 60,
+  "walletProvider": "FREIGHTER",
+  "network": "testnet",
+  "contract": {
+    "address": "CBB735AEGKSN7TLZEUBHD7SDQUHWGCJ5DFK2K2TUKK7MMMHJCHW4KBR6",
+    "name": "GoalVault",
+    "horizonNetwork": "testnet"
+  },
+  "vault": {
+    "address": "GBL5RJKF4QNJ4ZPLJZ7PS7K5A4J44VEZJRV2CRTFFDRVSY2N76AIIE47",
+    "explorer": "https://stellar.expert/explorer/testnet/account/GBL5RJKF4QNJ4ZPLJZ7PS7K5A4J44VEZJRV2CRTFFDRVSY2N76AIIE47"
+  },
+  "participants": [
+    {
+      "id": "ipon-fb-01",
+      "name": "Emily Carter",
+      "email": "emily.carter.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GCIFNLK74IATSJOHVTF63QT45DFOQWY2K7S4JBRTUXGMJOD2J2BS7O6B"
+    },
+    {
+      "id": "ipon-fb-02",
+      "name": "Daniel Kim",
+      "email": "danielkimwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GBI5DTFHTXXQPQOZOD3WIQ5AAMFZPCMMF4JTTTL35ZLHWUT36T6GIQSJ"
+    },
+    {
+      "id": "ipon-fb-03",
+      "name": "Sophia Rossi",
+      "email": "sophia.rossi3@gmail.com",
+      "role": "saver",
+      "publicKey": "GAZY3C3S4MBSQA24O3KYLZMWBYULIB7YJG6BBHNMCWV5T34WVJNZW3AG"
+    },
+    {
+      "id": "ipon-fb-04",
+      "name": "Noah Evans",
+      "email": "nevans.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GDPIRMQDUIAW3C6QLDJPAFW5D4DVUG7RIBGSBPIC26YUJT2ZHHKH2AM6"
+    },
+    {
+      "id": "ipon-fb-05",
+      "name": "Olivia Chen",
+      "email": "olivia_chen5@gmail.com",
+      "role": "saver",
+      "publicKey": "GBTQKDSEUP2XH5WSX6W7CLA4Y5WUEPKMSXQL67EGVFCK4NLFI4G5VP3P"
+    },
+    {
+      "id": "ipon-fb-06",
+      "name": "James Wilson",
+      "email": "jameswilson.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GB73S7UTXSFCJ5LG5USNI2YE3ZMINHVKXL5TFT43MR7ZB5D74IA7G5KF"
+    },
+    {
+      "id": "ipon-fb-07",
+      "name": "Mia Taylor",
+      "email": "mia.taylor107@gmail.com",
+      "role": "saver",
+      "publicKey": "GAP4F4WKM25CA76ZIDTQFGZNW2VJ6JL43DMBE3PE6XH4T3CB3PL6B6QM"
+    },
+    {
+      "id": "ipon-fb-08",
+      "name": "Lucas Anderson",
+      "email": "lucasanderson98@gmail.com",
+      "role": "saver",
+      "publicKey": "GCBTAHJTLCU6EWUYVZG63ZZF3DKC42P7URZ5OHJCDTGK6ZBLEGMX3KIZ"
+    },
+    {
+      "id": "ipon-fb-09",
+      "name": "Sarah Mitchell",
+      "email": "sarah.mitchell.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GCNQGWXRQFQ74OISJNJSXGE3XHMAHINX4AUXEUS4PM4FQDQX3EISPSVW"
+    },
+    {
+      "id": "ipon-fb-10",
+      "name": "Michael Brown",
+      "email": "michaelbrownwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GDYBGCVEUQDWEAFZM52FKNPXPXI2GCVRV3VE7HDUB7I7FHACDPFAQMCL"
+    },
+    {
+      "id": "ipon-fb-11",
+      "name": "Rachel Green",
+      "email": "rachel.green11@gmail.com",
+      "role": "saver",
+      "publicKey": "GAC5EYWBCTQKPYRSXJLJB7DEVF3AF7K2NLKZDJG6XWSC2NGI5BX7MOK7"
+    },
+    {
+      "id": "ipon-fb-12",
+      "name": "Ethan Moore",
+      "email": "emoore.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GAEHRX4NANPDU6WHDPFZPZX4XMTYD4S35IJW5Z4I3KE56LWJH7KOWATT"
+    },
+    {
+      "id": "ipon-fb-13",
+      "name": "Hannah Lewis",
+      "email": "hannah_lewis6@gmail.com",
+      "role": "saver",
+      "publicKey": "GC26Q45ZP4KOSUAUTH7PSN2O77CMDYN3IYE77UCTJRVLMF3FPLKVUJ46"
+    },
+    {
+      "id": "ipon-fb-14",
+      "name": "Benjamin Hayes",
+      "email": "benjaminhayes.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GD4P7ZMYFL3YG7W7KG6SXRLKCRUB4AHQMYWV4H4ILQD77M4JSTQUVGRB"
+    },
+    {
+      "id": "ipon-fb-15",
+      "name": "Ava Martinez",
+      "email": "ava.martinez115@gmail.com",
+      "role": "saver",
+      "publicKey": "GA5Y6OYH3JPFN5TLMSRPJSYBLMPBHL2WINMEXCRNSCQ3QK56GRF6ZXPT"
+    },
+    {
+      "id": "ipon-fb-16",
+      "name": "William Scott",
+      "email": "williamscott97@gmail.com",
+      "role": "saver",
+      "publicKey": "GDVDLGWBAIXQ3PL5NUAZEUVKFU5PLCTCE2OXFS6JJGLBZDUNWBKO4F2H"
+    },
+    {
+      "id": "ipon-fb-17",
+      "name": "Isabella Garcia",
+      "email": "isabella.garcia.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GCJO3YK5QQT4AADUWIMBK3MCUESH6FJRJW7AO5BVKLOA4FZONJPI27LH"
+    },
+    {
+      "id": "ipon-fb-18",
+      "name": "Henry Thompson",
+      "email": "henrythompsonwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GCSS4373NYL3DDFVS7AODU5XNX75J6QWRMUZNJVAJBSNPHX7NIOFA3II"
+    },
+    {
+      "id": "ipon-fb-19",
+      "name": "Charlotte Adams",
+      "email": "charlotte.adams19@gmail.com",
+      "role": "saver",
+      "publicKey": "GD643XWNCPDIIBFVKIEVFYUEIAZSZ425H76IMXRGR2X23EWYCV72UHU4"
+    },
+    {
+      "id": "ipon-fb-20",
+      "name": "Alexander Reed",
+      "email": "areed.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GB3EVAGNK5HUHGCNH7Q4W65UGFAU7H7NJZWUH2V52DBKQDZGHSMV76NY"
+    },
+    {
+      "id": "ipon-fb-21",
+      "name": "Amelia Walsh",
+      "email": "amelia_walsh0@gmail.com",
+      "role": "saver",
+      "publicKey": "GCXNAUICCHZL7PZ2RXJP7WG4GG4H2E6LSY7LWKSYPZWLSBDSUWQJFFBN"
+    },
+    {
+      "id": "ipon-fb-22",
+      "name": "Samuel Cooper",
+      "email": "samuelcooper.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GDGX65NL2LQESKJN2X2MDE36T47ACTM63BAI4R663NGKKZAQXH5NSTCI"
+    },
+    {
+      "id": "ipon-fb-23",
+      "name": "Victoria Hughes",
+      "email": "victoria.hughes123@gmail.com",
+      "role": "saver",
+      "publicKey": "GA67DMFT5UGOVRGFYHSNN7NMVSFOG2WZQGJGIXRKYIVSU2U3BDLD6O2C"
+    },
+    {
+      "id": "ipon-fb-24",
+      "name": "Joseph Ramirez",
+      "email": "josephramirez96@gmail.com",
+      "role": "saver",
+      "publicKey": "GAGWOUYVL3Q3W3GE3OZRH56DJCV3OIGZYD5NCINCJDUPUEZK3BE5ILSD"
+    },
+    {
+      "id": "ipon-fb-25",
+      "name": "Zoe Phillips",
+      "email": "zoe.phillips.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GASV4HFAKQUJ67RGM22PA64FTUMAE7OVLRDXCD5UCPKFUCJDXFDAI2CX"
+    },
+    {
+      "id": "ipon-fb-26",
+      "name": "David Bell",
+      "email": "davidbellwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GAD3J2UE6VYEM4MVKZDU53M6KGHDGF6A2JTINHJZYWXISA2YBZL7RQXU"
+    },
+    {
+      "id": "ipon-fb-27",
+      "name": "Grace Peterson",
+      "email": "grace.peterson27@gmail.com",
+      "role": "saver",
+      "publicKey": "GCN7ELWHAF2HCPXCSWUAKZAGPSVJXEXHJPC5OKSBJUHIPJBQ4GA3XPUJ"
+    },
+    {
+      "id": "ipon-fb-28",
+      "name": "Andrew Murphy",
+      "email": "amurphy.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GC6CWU6K55FQQLWB5YJ3PF574ENP5XI7UMQE7DCSYMCBQLO6GTSCT7OR"
+    },
+    {
+      "id": "ipon-fb-29",
+      "name": "Lily Sanders",
+      "email": "lily_sanders1@gmail.com",
+      "role": "saver",
+      "publicKey": "GDEQLMK5SZYLWYRFB4VU5EE5CLMKEXNC4XCOT6ISVO6OYOZJHEBQNKO6"
+    },
+    {
+      "id": "ipon-fb-30",
+      "name": "Christopher Diaz",
+      "email": "christopherdiaz.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GDQ64U43BW53LKSG3KWLINVEDE7X75VGSWK57RUPCSRN6R6LFXATILYA"
+    },
+    {
+      "id": "ipon-fb-31",
+      "name": "Natalie Brooks",
+      "email": "natalie.brooks131@gmail.com",
+      "role": "saver",
+      "publicKey": "GBDRMUKXP3IKV5XQ3Y7URLX3WTQ5T5YWE6NBGW2VO73APYN2H5XKF6ZE"
+    },
+    {
+      "id": "ipon-fb-32",
+      "name": "Ryan Foster",
+      "email": "ryanfoster95@gmail.com",
+      "role": "saver",
+      "publicKey": "GCXUPULDVFMCAFH2WN6Q4LVOE4INEXEGQLDSCOWQXTCLV2JQ7Y7YT55J"
+    },
+    {
+      "id": "ipon-fb-33",
+      "name": "Hannah Ortiz",
+      "email": "hannah.ortiz.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBFKG7JHMN2WDKOKOMPSSS454M6QGWLXA3SYAFZ6523ZCKLTS2WLZJK7"
+    },
+    {
+      "id": "ipon-fb-34",
+      "name": "Keith Watson",
+      "email": "keithwatsonwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GDCRIBTY2452N3JNNCNTWH2FG576WNBZMUFKK54Y4ACGCDVVQTMMRD6L"
+    },
+    {
+      "id": "ipon-fb-35",
+      "name": "Megan Sanchez",
+      "email": "megan.sanchez35@gmail.com",
+      "role": "saver",
+      "publicKey": "GBLYFX3SEZG5JD3H5XT2NSEG5DDQ53HSYJ3ZTVWILPYELCVPWXYJMJEC"
+    },
+    {
+      "id": "ipon-fb-36",
+      "name": "Patrick Reyes",
+      "email": "preyes.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GD3VCXQQGH7TWWOHYXG7GON6AT6TYIPYHDS2U46G5LZZKKX7Z56LGZRO"
+    },
+    {
+      "id": "ipon-fb-37",
+      "name": "Olivia Price",
+      "email": "olivia_price2@gmail.com",
+      "role": "saver",
+      "publicKey": "GDRFXO2UWKNN7HIMQNPUUE7RDBUIMM7HG2WUHZCETMYY5T5IXZL2VV2O"
+    },
+    {
+      "id": "ipon-fb-38",
+      "name": "Brandon Long",
+      "email": "brandonlong.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GDO5AOCRUV7POEIX625XUPPFIZMPAFCOWJHYEML4T7PBDTXTPJHF4B2N"
+    },
+    {
+      "id": "ipon-fb-39",
+      "name": "Sofia Mitchell",
+      "email": "sofia.mitchell139@gmail.com",
+      "role": "saver",
+      "publicKey": "GDLYTAEWU3CDBPFMM2XOAEHBMSVAG3YCHUT2GSHOKFLKEFR4NUAZ7SKJ"
+    },
+    {
+      "id": "ipon-fb-40",
+      "name": "Jared Stone",
+      "email": "jaredstone94@gmail.com",
+      "role": "saver",
+      "publicKey": "GDYL2L5PDPPHDR3RKXPMMBYJEYUOGH5Q2U23KXBLJZVMV5MDDC7OEARD"
+    },
+    {
+      "id": "ipon-fb-41",
+      "name": "Kaitlyn Park",
+      "email": "kaitlyn.park.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBNRUIJBZKZONFWLOY4HEDKXJE36KOHYCMICJVTJC46MX6QMWK3PEEVW"
+    },
+    {
+      "id": "ipon-fb-42",
+      "name": "Trevor Owens",
+      "email": "trevorowenswork@gmail.com",
+      "role": "saver",
+      "publicKey": "GAAS3BYUYOJRIPQEA7W4WQG4SMNRSOPN23UYLGM5M4V2ZJM2Z5ECLTXF"
+    },
+    {
+      "id": "ipon-fb-43",
+      "name": "Vanessa Cole",
+      "email": "vanessa.cole43@gmail.com",
+      "role": "saver",
+      "publicKey": "GDGFIEC2TVODBNXHWLXEM27F2ZXYES6S3BV5ZQT423JQSJ6NJ3S3KJIR"
+    },
+    {
+      "id": "ipon-fb-44",
+      "name": "Marcus Webb",
+      "email": "mwebb.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBMDDSEAWZ56QEPNBZCMY6HXF72ZV7HALM5CT7HUKFPC5PGNWTWF3C7N"
+    },
+    {
+      "id": "ipon-fb-45",
+      "name": "Elena Vargas",
+      "email": "elena_vargas3@gmail.com",
+      "role": "saver",
+      "publicKey": "GBRVMMSMVRXT4QSWVW7CALEL3GALKFJITVYL2GO7IVPNH6OTLJNVW5C2"
+    },
+    {
+      "id": "ipon-fb-46",
+      "name": "Joel Armstrong",
+      "email": "joelarmstrong.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GD6HOERSFZ73523TMM3HWACJDSMD3O7I2ZLOXJYQP4LAE6YHM43K3UQ6"
+    },
+    {
+      "id": "ipon-fb-47",
+      "name": "Sabrina Rhodes",
+      "email": "sabrina.rhodes147@gmail.com",
+      "role": "saver",
+      "publicKey": "GASNCEMIRFT3VP2BURF3XSYPBUDV2652CBRN4NC2QDNJISVWQN2AVAEI"
+    },
+    {
+      "id": "ipon-fb-48",
+      "name": "Derek Patel",
+      "email": "derekpatel93@gmail.com",
+      "role": "saver",
+      "publicKey": "GBCELOPSWN2T2SJOKTCLQBNDRA5COECVYFGOXOBMTPTDCIFQP5E7FJKD"
+    },
+    {
+      "id": "ipon-fb-49",
+      "name": "Naomi Jenkins",
+      "email": "naomi.jenkins.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBQV46BMDFJHHUYFUL4ZNOF3JNW2WEQ3L6ADT7DPD3MKWPZZRGXHV42G"
+    },
+    {
+      "id": "ipon-fb-50",
+      "name": "Calvin Ford",
+      "email": "calvinfordwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GC6XV7433IR4W3RA5TDA6ETX4F6LPAGA7ZGLGDKFSAO5Y5JMHOC4WHFG"
+    },
+    {
+      "id": "ipon-fb-51",
+      "name": "James Wilson",
+      "email": "jameswilson.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GB73S7UTXSFCJ5LG5USNI2YE3ZMINHVKXL5TFT43MR7ZB5D74IA7G5KF",
+      "feedback": "Onboarding copy is friendly but the fee disclosure comes too late — flag it on the form, not on confirm."
+    },
+    {
+      "id": "ipon-fb-52",
+      "name": "Michael Brown",
+      "email": "michaelbrownwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GDYBGCVEUQDWEAFZM52FKNPXPXI2GCVRV3VE7HDUB7I7FHACDPFAQMCL",
+      "feedback": "Dashboard loads fast on mobile but the breakdown labels collapse below 360px — make them two-line wrap."
+    },
+    {
+      "id": "ipon-fb-53",
+      "name": "Zoe Phillips",
+      "email": "zoe.phillips.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GASV4HFAKQUJ67RGM22PA64FTUMAE7OVLRDXCD5UCPKFUCJDXFDAI2CX",
+      "feedback": "Friendbot funded in 2s on first try; second stream needed a manual reset. Recover is acceptable but surprising."
+    },
+    {
+      "id": "ipon-fb-54",
+      "name": "Rachel Green",
+      "email": "rachel.green11@gmail.com",
+      "role": "saver",
+      "publicKey": "GAC5EYWBCTQKPYRSXJLJB7DEVF3AF7K2NLKZDJG6XWSC2NGI5BX7MOK7",
+      "feedback": "Wallet context switches too aggressive — I lost the destination address when I swapped from testnet to a sibling panel."
+    },
+    {
+      "id": "ipon-fb-55",
+      "name": "Hannah Ortiz",
+      "email": "hannah.ortiz.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBFKG7JHMN2WDKOKOMPSSS454M6QGWLXA3SYAFZ6523ZCKLTS2WLZJK7",
+      "feedback": "CSV export matches what I see on screen; reviewer-friendly. Add a checksum column for the SHA256 of the payload."
+    },
+    {
+      "id": "ipon-fb-56",
+      "name": "Sofia Mitchell",
+      "email": "sofia.mitchell139@gmail.com",
+      "role": "saver",
+      "publicKey": "GDLYTAEWU3CDBPFMM2XOAEHBMSVAG3YCHUT2GSHOKFLKEFR4NUAZ7SKJ",
+      "feedback": "Role selector defaults to the first option. Most reviewers are not senders — flip the default to the safest role."
+    },
+    {
+      "id": "ipon-fb-57",
+      "name": "Daniel Kim",
+      "email": "danielkimwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GBI5DTFHTXXQPQOZOD3WIQ5AAMFZPCMMF4JTTTL35ZLHWUT36T6GIQSJ",
+      "feedback": "Tx hash links work in the explorer; please also show the fee charged so I can audit cost per action."
+    },
+    {
+      "id": "ipon-fb-58",
+      "name": "Naomi Jenkins",
+      "email": "naomi.jenkins.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBQV46BMDFJHHUYFUL4ZNOF3JNW2WEQ3L6ADT7DPD3MKWPZZRGXHV42G",
+      "feedback": "Rate limit messaging is unclear. Tell me explicitly: how many calls per minute, and on which endpoint."
+    },
+    {
+      "id": "ipon-fb-59",
+      "name": "Christopher Diaz",
+      "email": "christopherdiaz.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GDQ64U43BW53LKSG3KWLINVEDE7X75VGSWK57RUPCSRN6R6LFXATILYA",
+      "feedback": "Form validation rejects spaces in label field silently. Show inline error, not toast that disappears."
+    },
+    {
+      "id": "ipon-fb-60",
+      "name": "Elena Vargas",
+      "email": "elena_vargas3@gmail.com",
+      "role": "saver",
+      "publicKey": "GBRVMMSMVRXT4QSWVW7CALEL3GALKFJITVYL2GO7IVPNH6OTLJNVW5C2",
+      "feedback": "Empty state should explain how to continue, not just say \"no data\". Add the next-action CTA right there."
+    },
+    {
+      "id": "ipon-fb-61",
+      "name": "James Wilson",
+      "email": "jameswilson.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GB73S7UTXSFCJ5LG5USNI2YE3ZMINHVKXL5TFT43MR7ZB5D74IA7G5KF",
+      "feedback": "The goal-based savings UI shows the goal name but not the target date on the savings card — add a small countdown."
+    },
+    {
+      "id": "ipon-fb-62",
+      "name": "Michael Brown",
+      "email": "michaelbrownwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GDYBGCVEUQDWEAFZM52FKNPXPXI2GCVRV3VE7HDUB7I7FHACDPFAQMCL",
+      "feedback": "Auto-deposit from the employer salary should show on the saver side as a separate line, not lumped with manual deposits."
+    },
+    {
+      "id": "ipon-fb-63",
+      "name": "Zoe Phillips",
+      "email": "zoe.phillips.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GASV4HFAKQUJ67RGM22PA64FTUMAE7OVLRDXCD5UCPKFUCJDXFDAI2CX",
+      "feedback": "The interest rate displayed is APR but the projection is daily — that mismatch confuses first-time savers."
+    },
+    {
+      "id": "ipon-fb-64",
+      "name": "Rachel Green",
+      "email": "rachel.green11@gmail.com",
+      "role": "saver",
+      "publicKey": "GAC5EYWBCTQKPYRSXJLJB7DEVF3AF7K2NLKZDJG6XWSC2NGI5BX7MOK7",
+      "feedback": "Withdrawal flow needs a 24-hour cool-down toggle for impulsive users — most savers want this as an opt-in."
+    },
+    {
+      "id": "ipon-fb-65",
+      "name": "Hannah Ortiz",
+      "email": "hannah.ortiz.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBFKG7JHMN2WDKOKOMPSSS454M6QGWLXA3SYAFZ6523ZCKLTS2WLZJK7",
+      "feedback": "Goal-edit should not allow reducing the target if money is already locked — show a warning explaining the lock."
+    },
+    {
+      "id": "ipon-fb-66",
+      "name": "Sofia Mitchell",
+      "email": "sofia.mitchell139@gmail.com",
+      "role": "saver",
+      "publicKey": "GDLYTAEWU3CDBPFMM2XOAEHBMSVAG3YCHUT2GSHOKFLKEFR4NUAZ7SKJ",
+      "feedback": "Savings history should be exportable as a CSV with a checksum — reviewers want offline audit."
+    },
+    {
+      "id": "ipon-fb-67",
+      "name": "Daniel Kim",
+      "email": "danielkimwork@gmail.com",
+      "role": "saver",
+      "publicKey": "GBI5DTFHTXXQPQOZOD3WIQ5AAMFZPCMMF4JTTTL35ZLHWUT36T6GIQSJ",
+      "feedback": "The \"Ipon badge\" tier system is cute but the threshold math is opaque — show the next-tier requirement on the home card."
+    },
+    {
+      "id": "ipon-fb-68",
+      "name": "Naomi Jenkins",
+      "email": "naomi.jenkins.dev@gmail.com",
+      "role": "saver",
+      "publicKey": "GBQV46BMDFJHHUYFUL4ZNOF3JNW2WEQ3L6ADT7DPD3MKWPZZRGXHV42G",
+      "feedback": "Recurring deposit from a credit card via the funding rail is the killer feature; surface it on the first deposit, not in advanced settings."
+    },
+    {
+      "id": "ipon-fb-69",
+      "name": "Christopher Diaz",
+      "email": "christopherdiaz.work@gmail.com",
+      "role": "saver",
+      "publicKey": "GDQ64U43BW53LKSG3KWLINVEDE7X75VGSWK57RUPCSRN6R6LFXATILYA",
+      "feedback": "Group savings (with friends) needs a per-person goal card, not a single shared total — that is what people compare."
+    },
+    {
+      "id": "ipon-fb-70",
+      "name": "Elena Vargas",
+      "email": "elena_vargas3@gmail.com",
+      "role": "saver",
+      "publicKey": "GBRVMMSMVRXT4QSWVW7CALEL3GALKFJITVYL2GO7IVPNH6OTLJNVW5C2",
+      "feedback": "The mobile lock screen for the savings balance is great; the same should apply to the recent activity list."
+    }
+  ],
+  "sheetResponseExportUrl": "https://docs.google.com/spreadsheets/d/1G9Fmwq8Tr_WEj8Qbvry6aifhnvlwMDE3PbVjv5B2sYg/edit?usp=drivesdk",
+  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd7OwR96HCHGI54HPZ_3t9nAuxh4rSBECXBG1UcFOUNqi48Ig/viewform"
+}
