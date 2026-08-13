@@ -118,7 +118,7 @@ export const savingsGoalService = {
     }
     const prev = toStroops(goal.currentAmount);
     const delta = onChain - prev;
-    const credited = delta > 0n ? delta : onChain; // first deposit: delta == onChain
+    const credited = delta > 0n ? delta : onChain > 0n ? onChain : 0n;
 
     const [deposit] = await db
       .insert(deposits)
