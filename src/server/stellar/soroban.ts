@@ -112,7 +112,7 @@ export async function submit(signedXdr: string): Promise<SubmitResult> {
 
   let got = await srv.getTransaction(sent.hash);
   const deadline = Date.now() + 60_000;
-  while ((got.status === 'NOT_FOUND' || got.status === 'PENDING') && Date.now() < deadline) {
+  while ((got.status === 'NOT_FOUND' || (got.status as string) === 'PENDING') && Date.now() < deadline) {
     await new Promise((r) => setTimeout(r, 1500));
     got = await srv.getTransaction(sent.hash);
   }
